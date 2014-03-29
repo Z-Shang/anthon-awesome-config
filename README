@@ -1,0 +1,14 @@
+配置文件：
+awesome/rc.lua		awesome主配置文件
+awesome/volume.lua 	awesome音量插件(相关内容在 rc.lua 里已禁用， 分别是 require("volume") 和 right_layout:add(volume_widget) ，需要配合 ALSA 来使用)
+awesome/aosc.lua 	应用程序菜单(使用 xdg_menu 生成) ( xdg_menu --format awesome --root-menu /etc/xdg/menus/aosc-applications.menu )
+
+Xdefault 		~/.Xdefault ， urxvt 配置文件 (在 awesome 里配置的是默认使用 urxvt 和 zsh)
+zshrc			~/.zshrc ，zsh 配置文件
+xprofile 		~/.xprofile ， 用于在 awesome 中启用 fcitx
+
+需要：
+oh-my-zsh
+powerline-fonts (Source Code Pro for Powerline)
+xcompmgr (窗口阴影管理器，用于支持 urxvt 的透明)
+xdg_menu (用来生成 awesome 的右键菜单)
